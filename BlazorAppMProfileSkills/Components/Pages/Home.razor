@@ -1,0 +1,78 @@
+﻿@page "/"
+
+
+<!-- Home Section Starts -->
+<div class="home-section" id="home">
+    <div class="home-content">
+        <!-- Background Video Starts -->
+        <video id="videobg" poster="http://via.placeholder.com/1920x1080.jpg" autoplay muted loop>
+            <source src="https://path_to_your_video.mp4" type="video/mp4">
+        </video>
+        <!-- Background Video Ends -->
+        <!-- Background Dotted Pattern Starts -->
+        <div class="right-dotted-shape"></div>
+        <!-- Background Dotted Pattern Ends -->
+        <!-- Home Main Content Starts -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="hero-section d-flex align-items-center justify-content-center">
+                        <div class="text-center">
+                            <h2>hi ! i’m<span> Daniel.</span></h2>
+                            <p>I'm a Freelance UI/UX Designer and Developer based in London, England.</p>
+                            <div class="buttons">
+                                <a id="link-about" href="#about" class="btn main-btn link-page"><span>more about me</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Home Main Content Ends -->
+        <!-- Social Media Starts -->
+        <div class="home-social d-none d-sm-block">
+            <ul class="social list-unstyled d-flex m-0">
+                <li class="facebook">
+                    <a title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="twitter">
+                    <a title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="linkedin">
+                    <a title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li class="dribbble">
+                    <a title="Dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+                </li>
+                <li class="instagram">
+                    <a title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+        <!-- Social Media Ends -->
+        <!-- Home Contact Starts -->
+        <div class="home-contact d-none d-sm-block">
+            <p>
+                Let's work together
+                <a class="d-block" href="#">contact@daniel.net</a>
+                <span>+216 21 184 010 32</span>
+            </p>
+        </div>
+        <!-- Home Contact Ends -->
+    </div>
+</div>
+<!-- Home Section Ends -->
+
+<!-- About Section Starts -->
+<AboutComponent/>
+<!-- About Section Ends -->
+<!-- Portfolio Section Starts -->
+<WorkComponent/>
+<!-- Portfolio Section Ends -->
+
+<!-- Contact Section Starts -->
+<ContactComponent/>
+<!-- Contact Section Ends -->
+<!-- Blog Section Starts -->
+<BlogComponent/>
+<!-- Blog Section Ends -->
